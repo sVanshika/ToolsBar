@@ -5,7 +5,7 @@ It is a platform having necessary tools like
 ### 3. Age Calculator
 ### 4. Number System Converter
 
-#### Technology Used:
+#### Technologies Used:
 #### 1. HTML
 #### 2. CSS
 #### 3. JavaScript

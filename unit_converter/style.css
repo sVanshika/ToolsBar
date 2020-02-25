@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    font-family:"Bahnschrift";
+}
+.toolsbar{
+    padding: 80px 0 100px 0;
+    width:100%;
+    height:300px;
+    background-image: url(../images/background3.jpg);
+    background-size: cover;
+    color: white;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.toolsbar h1{
+    width:100%;
+    color:black;
+    font-family: "Ink Free";
+    font-size: 100px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight:bold;
+    padding-left:25px;
+    text-align: left;
+}
+.content-heading h1{
+    align: center;
+    padding:25px 0;
+    width:100%; 
+    border: 1px solid black;
+    
+}
+.length, .mass, .speed, .volume{
+    align: center;
+    
+    width:50%;
+    margin-left:25%;
+    margin-top:5%;
+    padding:25px 25px;
+    position: relative;
+    border-radius: 10%;
+    border:1px solid black;
+
+    border: 3px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heading img,h1{
+    align:center;
+    float:left;
+}
+img{
+    border-radius: 10%;
+    padding-left:25%;   
+    padding-right:5%;
+}
+.heading h1{
+    padding-right: 15%;
+}
+.converter h2{
+    align:center;
+}
+
+input{
+    background-color: ghostwhite;
+}
+.mass{
+    margin-top: 10%;
+    box-shadow:  0 4px 8px 0  darkcyan, 0 6px 20px 0 darkcyan;
+}
+.speed{
+    box-shadow:  0 4px 8px 0   darkred, 0 6px 20px 0 darkred;
+}
+.volume{
+    box-shadow:  0 4px 8px 0  darkblue, 0 6px 20px darkblue;
+}
+.length{
+    box-shadow:  0 6px 10px 0 rosybrown, 0 6px 20px 0 rosybrown;
+}

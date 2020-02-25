@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    font-family:"Bahnschrift";
+    padding-bottom: 50px;
+    
+}
+.toolsbar{
+    padding: 80px 0 100px 0;
+    width:100%;
+    height:300px;
+    background-image: url(../images/background3.jpg);
+    background-size: cover;
+    color: white;
+}
+.toolsbar-container {
+    width: 100%;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+.toolsbar h1{
+    width:100%;
+    color:black;
+    font-family: "Ink Free";
+    font-size: 75px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight:bold;
+    padding-left:25px;
+    text-align: left;
+}
+.numberSystem{
+    column-count:2;
+    
+}
+.octal, .decimal, .binary, .hexadecimal{
+    float: left;
+    display: inline-block;
+    width:50%;
+    margin-left:25%;
+    margin-top:5%;
+    padding:25px 25px;
+    position: relative;
+    border-radius: 0%;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url(background3.jpg);
+    
+}
+.heading img,h1{
+    
+    float:left;
+}
+img{
+    border-radius: 10%;
+    padding-left:25%;   
+    padding-right:5%;
+}
+.heading h1{
+    width:100%;
+    padding-right: 15%;
+}
+.converter h2{
+    align:center;
+}
+
+input{
+    background-color: ghostwhite;
+}
+.decimal{
+    border:4px solid deeppink;
+    border-style: groove;
+}
+.octal{
+    border:4px solid orange;
+    border-style: groove;
+}
+.binary{
+    border:4px solid darkblue;
+    border-style: groove;
+    margin-bottom: 5%;
+}
+.hexadecimal{
+    border:4px solid darkcyan;
+    border-style: groove;
+}
